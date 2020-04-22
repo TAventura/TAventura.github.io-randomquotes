@@ -61,14 +61,14 @@ button:hover { /*IMPORTANTE, VER DE HACER UNA ANIMACION PARA QUE EL CAMBIO SEA M
 
 .cita {
     text-align: center;
-    font-size: 1rem;
+    font-size: 3.5vw;
 }
 
 .autor {
     text-align: right;
     color: #20b2aa;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 3vw;
 
     /* Los dos siguientes estilos son para ponerle un "borde" de color al texto */
     -webkit-text-stroke-width: 1px;
