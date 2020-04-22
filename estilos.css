@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: coral;
+}
+
+main, #oculto {
+    /* height: 50%; */
+    width: 50%;
+    background: rgba(255, 255, 255, 0.35);
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4% 0;
+    /* opacity: 0.5; */
+}
+
+.contenedorBoton{
+    text-align: center;
+}
+
+button {
+    background-color: #20b2aa;
+    padding: 2%;
+    margin-bottom: 2%;
+    border: 1px solid #20b2aa;
+    border-radius: 6%;
+    
+
+
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
+.boton {
+    font-size: 1.5rem;
+    /* margin-bottom: 10px; */
+}
+
+button:hover { /*IMPORTANTE, VER DE HACER UNA ANIMACION PARA QUE EL CAMBIO SEA MAS SUAVE*/
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+}
+
+.cita, .autor {
+    margin: .5% 4%;
+}
+
+
+.cita {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.autor {
+    text-align: right;
+    color: #20b2aa;
+    font-weight: 500;
+    font-size: 2rem;
+
+    /* Los dos siguientes estilos son para ponerle un "borde" de color al texto */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+#oculto {
+    display: none;
+    padding: 5%;
+}
+
+#oculto * {
+    margin-bottom: 1.5%;
+}
+
+textarea {
+    resize: none;
+}
+
